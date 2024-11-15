@@ -33,12 +33,12 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'AI-Pdf-Notes-Taker',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Developed an AI-powered tool that automatically extracts and organizes key information from PDF documents, creating concise summaries and taking notes in a structured format.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            './app.jpg',
+          link: 'https://ai-pdf-notes-taker-fdrm.vercel.app/',
         },
         {
           title: 'Project Name',
