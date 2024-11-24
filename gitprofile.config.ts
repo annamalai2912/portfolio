@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/portfolio/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -37,13 +37,13 @@ const CONFIG = {
           description:
             'Developed an AI-powered tool that automatically extracts and organizes key information from PDF documents, creating concise summaries and taking notes in a structured format.',
           imageUrl:
-            './app.jpg',
+            './ai-pdf.svg',
           link: 'https://ai-pdf-notes-taker-fdrm.vercel.app/',
         },
         {
-          title: 'Project Name',
+          title: 'ScriptToys',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Developed a desktop application to automate small tasks using batch and VBS scripts.The app allows users to create, edit, and manage scripts with an intuitive interface, enabling smoothexecution and script toggling. It utilizes JSON for data storage and threading for background taskmanagement.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -57,34 +57,33 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'annamalaikm2002',
+    twitter: '',
+    mastodon: 'Annamalai@mastodon.social',
     researchGate: '',
     facebook: '',
-    instagram: '',
+    instagram: 'Asra_uzumaki',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '@annamalai2912002',
+    dev: '@uzusss',
+    stackoverflow: 'annu', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://annamalai2912002.wixsite.com/personal-site',
+    phone: '+91 9345341879',
+    email: 'annamalaikm@hotmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1fszTilcCRq6CRka3XZQeV_KCnbC5wfXY/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -100,19 +99,20 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'TechKnots',
+      position: 'Trainee',
+      from: 'August 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://techknots.org',
     },
+    /*
     {
       company: 'Company Name',
       position: 'Position',
       from: 'July 2019',
       to: 'August 2021',
       companyLink: 'https://example.com',
-    },
+    },*/
   ],
   certifications: [
     {
@@ -124,19 +124,19 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Bishop Heber College',
+      degree: 'MCA',
+      from: '2022',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Bishop Heber College',
+      degree: 'B.Sc Computer Science',
+      from: '2019',
+      to: '2022',
     },
   ],
-  publications: [
+  /*publications: [
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -169,9 +169,9 @@ const CONFIG = {
   hotjar: {
     id: '',
     snippetVersion: 6,
-  },
+  },*/
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -238,7 +238,7 @@ const CONFIG = {
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> and Annamalai`,
 
   enablePWA: true,
 };
